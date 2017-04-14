@@ -80,6 +80,7 @@ function getIds() {
         document.getElementById("OneSignalUserId").innerHTML = "UserId: " + ids.userId;
         document.getElementById("OneSignalPushToken").innerHTML = "PushToken: " + ids.pushToken;
         console.log('getIds: ' + JSON.stringify(ids));
+		alert("sent!");
     });
 }
 
